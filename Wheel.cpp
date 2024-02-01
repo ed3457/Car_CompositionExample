@@ -31,3 +31,10 @@ Wheel::Wheel(string m, float d)
     diameter = d;
     make = m;
 }
+
+void Wheel::PrintWheelInfo()
+{
+    cout << "Make:" << make << endl;
+    cout << "Diameter:" << diameter << endl;
+
+}

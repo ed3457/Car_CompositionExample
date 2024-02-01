@@ -19,3 +19,9 @@ WinterWheel::WinterWheel(string make, float diameter, float threadSize):Wheel(ma
 {
     this->threadSize = threadSize;
 }
+
+void WinterWheel::PrintWheelInfo()
+{
+    Wheel::PrintWheelInfo();
+    cout << "Thread Size:" << threadSize << endl;
+}

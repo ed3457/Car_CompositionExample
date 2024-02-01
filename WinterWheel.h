@@ -12,5 +12,6 @@ public:
 
 	WinterWheel();
 	WinterWheel(string make, float diameter, float threadSize);
+	void PrintWheelInfo();// override 
 };
 

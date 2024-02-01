@@ -19,6 +19,7 @@ public:
 
 	Wheel();
 	Wheel(string m, float d);
+	void PrintWheelInfo();
 
 };
 
